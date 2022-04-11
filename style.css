@@ -284,16 +284,21 @@ a:hover {
     margin-top: 80px;
 }
 
+.flex{
+    display: flex;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
 }
 
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
+    margin: auto;
 }
+
 
 #bloc-1-hero h1 {
     font-size: 32px;
